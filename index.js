@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
 });
 
 
-const uri = 'mongodb+srv://aryan283bh:2548@cluster0.a00vp6v.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://aryan283bh:<password>@cluster0.a00vp6v.mongodb.net/?retryWrites=true&w=majority'
 
 // Connect to MongoDB using Mongoose
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
